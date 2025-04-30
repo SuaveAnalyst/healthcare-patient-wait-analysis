@@ -32,10 +32,10 @@ by time, department, and location for operational analysis and performance KPIs.
 
 /*
 ====================================================
-🧹	Data Cleaning Plan 
-	Tables:
-		patients
-		satisfaction
+🧹 Data Cleaning Plan 
+Tables:
+	patients
+	satisfaction
 ====================================================
 */
 
