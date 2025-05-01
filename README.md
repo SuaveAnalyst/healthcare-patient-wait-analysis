@@ -107,10 +107,10 @@ Based on the insights and findings above, we would recommend the Anna Padgett to
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (Wait time is measured in average minutes per department, not per individual visit.)
+* Assumption 1 Wait time is measured in average minutes per department, not per individual visit.
   
-* Assumption 2 (Satisfaction scores are self-reported on a 1–5 scale and may carry bias.)
+* Assumption 2 Satisfaction scores are self-reported on a 1–5 scale and may carry bias.
   
-* Assumption 3 (City rankings are based only on patients seen at those locations — no weighting by volume.)
+* Assumption 3 City rankings are based only on patients seen at those locations — no weighting by volume.
 
-* Assumption 4 (November and December data appeared to taper off and may be affected by incomplete reporting.)
+* Assumption 4 November and December data appeared to taper off and may be affected by incomplete reporting.
