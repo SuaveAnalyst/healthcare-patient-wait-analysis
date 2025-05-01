@@ -1,0 +1,8 @@
+Area,total_patients,avg_waiting_time,min_waiting_time,max_waiting_time,avg_satisfaction
+Surgery,5351,46.46,14,81,3.75
+Cardiology,8433,35.24,5,63,4.09
+Dermatology,6222,46.94,15,84,3.76
+Oncology,6556,47.96,13,77,3.76
+Gynecology,4593,45.24,7,83,3.78
+Orthopaedics,4992,51.42,7,103,3.45
+Neurology,4132,50.09,7,79,3.75

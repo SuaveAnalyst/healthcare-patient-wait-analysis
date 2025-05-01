@@ -1,0 +1,8 @@
+Area,total_wait_time,grand_total,cumulative_pct
+Oncology,314416,1823717,17.24
+Cardiology,297169,1823717,33.54
+Dermatology,292065,1823717,49.55
+Orthopaedics,256693,1823717,63.63
+Surgery,248600,1823717,77.26
+Gynecology,207803,1823717,88.65
+Neurology,206971,1823717,100.00
