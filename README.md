@@ -50,7 +50,8 @@ February had peak patient volume (4.4K), followed by a 39% drop into November. T
 
 Tinley Park ranks mid-tier in both wait time and satisfaction, suggesting opportunity for local optimization to enhance their flagship site’s performance.
 
-[https://github.com/SuaveAnalyst/healthcare-patient-wait-analysis/blob/c7721897968b7f3d4aad7a8a9a2053a6905aabe6/screeenshots/Patient%20Analysis.pdf]
+![image](https://github.com/user-attachments/assets/535b9eef-f588-4dcd-a80d-6c28f1d45527)
+]
 
 
 
