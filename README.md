@@ -27,7 +27,7 @@ An interactive Power BI dashboard used to report and explore sales trends can be
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of two tables: patient_details, satisfactory, and 7 seven createdd views with a total row count of 40,280 records. A description of each table is as follows:
+The companies main database structure as seen below consists of two tables: patient_details, satisfactory, and 7 seven created views with a total row count of 40,280 records. A description of each table is as follows:
 
 **Sheet Name/Description**
 
@@ -44,7 +44,11 @@ The companies main database structure as seen below consists of two tables: pati
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+Wait times and satisfaction are not directly correlated. Departments with the longest wait times (Orthopaedics, Neurology) did not always have the lowest satisfaction — but Orthopaedics is a critical exception.
+
+February had peak patient volume (4.4K), followed by a 39% drop into November. This could point to seasonal issues or capacity/resource misalignment.
+
+Tinley Park ranks mid-tier in both wait time and satisfaction, suggesting opportunity for local optimization to enhance their flagship site’s performance.
 
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
