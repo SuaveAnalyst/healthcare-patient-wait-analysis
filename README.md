@@ -30,12 +30,13 @@ An interactive Power BI dashboard used to report and explore sales trends can be
 The companies main database structure as seen below consists of two tables: patient_details, satisfactory, and 7 seven createdd views with a total row count of 40,280 records. A description of each table is as follows:
 
 **Sheet Name/Description**
+
 ![image](https://github.com/user-attachments/assets/b64d32fd-291a-4e9b-86a2-f5628435959e)
 
 
 
-[![image](https://github.com/user-attachments/assets/c41ddd6b-51f8-48a8-9d67-57083896d4c5)
-]
+![image](https://github.com/user-attachments/assets/c41ddd6b-51f8-48a8-9d67-57083896d4c5)
+
 
 
 
