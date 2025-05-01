@@ -1,12 +1,21 @@
+# Patient Satisfaction & Operational Efficiency Analysis
+Client: Campbell Health Solutions (Tinley Park, IL)
+Stakeholder: Anna Padgett, Director of Patient Services
+
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+Campbell Health Solutions is a regional healthcare provider located in Tinley Park, Illinois, specializing in comprehensive outpatient services. With recent concerns about patient retention and growing complaints around wait times, the Director of Patient Services, Anna Padgett, requested a deep dive analysis of patient experience metrics across departments and cities.
+
+As a data analyst embedded in the healthcare operations team, this analyst focused on uncovering insights that impact patient satisfaction, wait time trends, departmental efficiency, and geographic performance.
+
+# Business Question
+What operational and service delivery factors are driving patient dissatisfaction across Campbell Health Solutions’ departments and cities — and how can leadership improve patient experience without expanding cost-heavy resources?
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+- **Category 1: Departmental Performance 
+- **Category 2: City-Level Network Gaps 
+- **Category 3: Patient Volume Trends 
+- **Category 4: Satisfaction Stability 
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
