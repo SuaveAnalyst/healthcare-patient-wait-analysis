@@ -44,84 +44,62 @@ The companies main database structure as seen below consists of two tables: pati
 
 ### Overview of Findings
 
-Wait times and satisfaction are not directly correlated. Departments with the longest wait times (Orthopaedics, Neurology) did not always have the lowest satisfaction — but Orthopaedics is a critical exception.
+* Wait times and satisfaction are not directly correlated. Departments with the longest wait times (Orthopaedics, Neurology) did not always have the lowest satisfaction — but Orthopaedics is a critical exception.
 
-February had peak patient volume (4.4K), followed by a 39% drop into November. This could point to seasonal issues or capacity/resource misalignment.
+* February had peak patient volume (4.4K), followed by a 39% drop into November. This could point to seasonal issues or capacity/resource misalignment.
 
-Tinley Park ranks mid-tier in both wait time and satisfaction, suggesting opportunity for local optimization to enhance their flagship site’s performance.
+* Tinley Park ranks mid-tier in both wait time and satisfaction, suggesting opportunity for local optimization to enhance their flagship site’s performance.
 
 ![image](https://github.com/user-attachments/assets/535b9eef-f588-4dcd-a80d-6c28f1d45527)
-]
 
 
 
 # Insights Deep Dive
-### Category 1:
+### Category 1: Departmental Performance
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 1.** Orthopedics has the highest average wait time (51.84 minutes) and lowest satisfaction (3.39/5) — signaling an urgent need for resourcing or operational changes.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 2.** Neurology also ranks poorly in wait times (51.13 minutes) but manages better satisfaction (3.76), suggesting patient expectations may vary.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 3.** Surgery performs well, balancing a wait time of ~46 minutes with high satisfaction (3.81).
+
+
+
+### Category 2: City-Level Network Gaps
+
+* **Main insight 1.** Geographic disparities exist across locations like Rockford and Downers Grove.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 1]
+* **Main insight 2.** Tinley Park has average wait and satisfaction scores — a missed opportunity for performance leadership as the company's home base.
 
 
-### Category 2:
+### Category 3: Patient Volume Trends
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 1.** Patient traffic peaked in February, with a steady decline toward year-end — a 39% drop.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 2.** These trends could inform seasonal staffing plans and marketing initiatives.
+
+
+### Category 4: Satisfaction Stability
+
+* **Main insight 1.** Despite wait time fluctuations, patient satisfaction remained stable between 3.6–3.8.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 2]
-
-
-### Category 3:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 3]
-
-
-### Category 4:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
+* **Main insight 2.** Indicates other drivers (e.g., staff quality, facility conditions) may have stronger influence on patient perception.
 
 
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend the Anna Padgett to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Specific observation that is related to a recommended action. **Address Orthopaedics' inefficiency by reallocating staff, adjusting appointment slots, or deploying urgent care pathways.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Specific observation that is related to a recommended action. **Leverage high-performing departments like Surgery as a benchmark for others.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Specific observation that is related to a recommended action. **Position Tinley Park as a “model site” through targeted investment in patient flow tools or concierge services.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Specific observation that is related to a recommended action. **Conduct patient surveys beyond wait time topics to capture holistic drivers of satisfaction.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Specific observation that is related to a recommended action. **Implement seasonal resource planning to better match patient volume with staffing.**
   
 
 
@@ -129,8 +107,10 @@ Based on the insights and findings above, we would recommend the [stakeholder te
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+* Assumption 1 (Wait time is measured in average minutes per department, not per individual visit.)
   
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+* Assumption 2 (Satisfaction scores are self-reported on a 1–5 scale and may carry bias.)
   
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* Assumption 3 (City rankings are based only on patients seen at those locations — no weighting by volume.)
+
+* Assumption 4 (November and December data appeared to taper off and may be affected by incomplete reporting.)
