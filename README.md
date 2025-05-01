@@ -12,12 +12,12 @@ What operational and service delivery factors are driving patient dissatisfactio
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1: Departmental Performance 
-- **Category 2: City-Level Network Gaps 
-- **Category 3: Patient Volume Trends 
-- **Category 4: Satisfaction Stability 
+- **Category** 1: Departmental Performance 
+- **Category** 2: City-Level Network Gaps 
+- **Category** 3: Patient Volume Trends 
+- **Category** 4: Satisfaction Stability 
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The SQL queries used to inspect and clean the data for this analysis can be found here [https://github.com/SuaveAnalyst/healthcare-patient-wait-analysis/blob/3b7f625a255fb3df120315907b67c804569f6baa/Patient%20Analysis%20Views/patient_analysis_script.sql#L33-L113].
 
 Targed SQL queries regarding various business questions can be found here [link].
 
