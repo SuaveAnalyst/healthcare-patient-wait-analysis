@@ -12,28 +12,35 @@ What operational and service delivery factors are driving patient dissatisfactio
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category** 1: Departmental Performance 
-- **Category** 2: City-Level Network Gaps 
-- **Category** 3: Patient Volume Trends 
-- **Category** 4: Satisfaction Stability 
+- **Category 1:** Departmental Performance 
+- **Category 2:** City-Level Network Gaps 
+- **Category 3:** Patient Volume Trends 
+- **Category 4:** Satisfaction Stability 
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [https://github.com/SuaveAnalyst/healthcare-patient-wait-analysis/blob/3b7f625a255fb3df120315907b67c804569f6baa/Patient%20Analysis%20Views/patient_analysis_script.sql#L33-L113].
 
-Targed SQL queries regarding various business questions can be found here [link].
+Targed SQL queries regarding various business questions can be found here [https://github.com/SuaveAnalyst/healthcare-patient-wait-analysis/blob/c107226905cc3e408b54dce7f5b08b42ef13de6e/Patient%20Analysis%20Views/patient_analysis_script.sql#L114-L254].
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+An interactive Power BI dashboard used to report and explore sales trends can be found here 🔗 [View the Live Power BI Dashboard](https://app.powerbi.com/reportEmbed?reportId=1a2fea91-afdd-4762-bb8c-2bba06b0d7bb&autoAuth=true&ctid=c207a2ac-fbb3-47dd-8955-d284c02dad59)
 
 
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+The companies main database structure as seen below consists of two tables: patient_details, satisfactory, and 7 seven createdd views with a total row count of 40,280 records. A description of each table is as follows:
 
-[Entity Relationship Diagram here]
+## Sheet Name	                       ## Description
+vw_patient_details:	                 Core dataset with individual patient records including visit date, department, satisfaction score, and wait time.
+vw_department_stats:	               Aggregated departmental metrics including average wait times, satisfaction scores, and total patient counts.
+vw_monthly_trends:	                 Monthly trends in patient visits across the year, helping identify seasonal peaks and declines.
+vw_city_wait_ranks:	                 Performance comparison across city-based hospital locations (e.g., Tinley Park, Aurora) by wait time and satisfaction.
+vw_rolling_satisfaction:	           Time series of rolling averages for patient satisfaction scores, used to monitor service stability.
+vw_pareto_wait_impact:	             Pareto analysis showing which departments contribute most to excessive wait times.
+vw_department_load_rank:	           Rankings of departments based on patient load, helping visualize resource strain or bottlenecks.
+vw_monthly_growth	Month-over-month:  percentage growth or decline in patient visits for capacity planning.
+
+[![image](https://github.com/user-attachments/assets/c41ddd6b-51f8-48a8-9d67-57083896d4c5)
+]
 
 
 
