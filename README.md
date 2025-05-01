@@ -29,15 +29,10 @@ An interactive Power BI dashboard used to report and explore sales trends can be
 
 The companies main database structure as seen below consists of two tables: patient_details, satisfactory, and 7 seven createdd views with a total row count of 40,280 records. A description of each table is as follows:
 
-**Sheet Name**	                     **Description**
-vw_patient_details:	                 Core dataset with individual patient records including visit date, department, satisfaction score, and wait time.
-vw_department_stats:	               Aggregated departmental metrics including average wait times, satisfaction scores, and total patient counts.
-vw_monthly_trends:	                 Monthly trends in patient visits across the year, helping identify seasonal peaks and declines.
-vw_city_wait_ranks:	                 Performance comparison across city-based hospital locations (e.g., Tinley Park, Aurora) by wait time and satisfaction.
-vw_rolling_satisfaction:	           Time series of rolling averages for patient satisfaction scores, used to monitor service stability.
-vw_pareto_wait_impact:	             Pareto analysis showing which departments contribute most to excessive wait times.
-vw_department_load_rank:	           Rankings of departments based on patient load, helping visualize resource strain or bottlenecks.
-vw_monthly_growth	Month-over-month:  percentage growth or decline in patient visits for capacity planning.
+**Sheet Name/Description**
+![image](https://github.com/user-attachments/assets/b64d32fd-291a-4e9b-86a2-f5628435959e)
+
+
 
 [![image](https://github.com/user-attachments/assets/c41ddd6b-51f8-48a8-9d67-57083896d4c5)
 ]
