@@ -29,7 +29,7 @@ An interactive Power BI dashboard used to report and explore sales trends can be
 
 The companies main database structure as seen below consists of two tables: patient_details, satisfactory, and 7 seven createdd views with a total row count of 40,280 records. A description of each table is as follows:
 
-## Sheet Name	                       ## Description
+**Sheet Name**	                     **Description**
 vw_patient_details:	                 Core dataset with individual patient records including visit date, department, satisfaction score, and wait time.
 vw_department_stats:	               Aggregated departmental metrics including average wait times, satisfaction scores, and total patient counts.
 vw_monthly_trends:	                 Monthly trends in patient visits across the year, helping identify seasonal peaks and declines.
