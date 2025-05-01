@@ -7,6 +7,8 @@ Campbell Health Solutions is a regional healthcare provider located in Tinley Pa
 
 As a data analyst embedded in the healthcare operations team, this analyst focused on uncovering insights that impact patient satisfaction, wait time trends, departmental efficiency, and geographic performance.
 
+[![View Dashboard](https://img.shields.io/badge/View-Dashboard-blue?logo=powerbi)](https://app.powerbi.com/reportEmbed?reportId=1a2fea91-afdd-4762-bb8c-2bba06b0d7bb&autoAuth=true&ctid=c207a2ac-fbb3-47dd-8955-d284c02dad59)
+
 # Business Question
 What operational and service delivery factors are driving patient dissatisfaction across Campbell Health Solutions’ departments and cities — and how can leadership improve patient experience without expanding cost-heavy resources?
 
